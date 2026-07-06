@@ -76,7 +76,7 @@ export default function Experience() {
   ];
 
   return (
-    <section className="py-24" id="experience">
+    <section className="scroll-mt-24 py-24" id="experience">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="space-y-4">

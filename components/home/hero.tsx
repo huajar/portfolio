@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 function NetworkDiagram() {
   return (
-    <div className="w-[360px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[500px]">
+    <div className="w-[360px] sm:w-[340px] md:w-[380px] lg:w-[400px] xl:w-[500px]" aria-hidden="true">
       <DotLottieReact
         src="/animations/Chemistry.lottie"
         autoplay
@@ -24,7 +24,7 @@ export function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="py-16 md:py-28" id="about">
+    <section className="scroll-mt-24 py-16 md:py-28" id="about">
       <div className="container mx-auto px-4 md:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-24 lg:gap-16">
           <div className="flex-1 max-w-2xl space-y-5">
@@ -44,24 +44,24 @@ export function Hero() {
               {t("years_active")}
             </p>
             <div className="flex items-center gap-2 pt-1">
-              <Link href="https://github.com/huajar" target="_blank">
-                <Button size="icon" variant="ghost">
-                  <Github className="h-5 w-5" />
+              <Button size="icon" variant="ghost" asChild>
+                <Link href="https://github.com/huajar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <Github className="h-5 w-5" aria-hidden="true" />
                   <span className="sr-only">GitHub</span>
-                </Button>
-              </Link>
-              <Link href="https://www.linkedin.com/in/rhuaja/" target="_blank">
-                <Button size="icon" variant="ghost">
-                  <Linkedin className="h-5 w-5" />
+                </Link>
+              </Button>
+              <Button size="icon" variant="ghost" asChild>
+                <Link href="https://www.linkedin.com/in/rhuaja/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Linkedin className="h-5 w-5" aria-hidden="true" />
                   <span className="sr-only">LinkedIn</span>
-                </Button>
-              </Link>
-              <Link href="mailto:rhuajamaita@gmail.com">
-                <Button size="icon" variant="ghost">
-                  <Mail className="h-5 w-5" />
+                </Link>
+              </Button>
+              <Button size="icon" variant="ghost" asChild>
+                <Link href="mailto:rhuajamaita@gmail.com" aria-label="Email">
+                  <Mail className="h-5 w-5" aria-hidden="true" />
                   <span className="sr-only">Email</span>
-                </Button>
-              </Link>
+                </Link>
+              </Button>
             </div>
           </div>
           <div className="flex flex-1 items-center justify-center">

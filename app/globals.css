@@ -14,3 +14,6 @@
   --border-radius: 0px;
 }
 
+html {
+  color-scheme: light;
+}

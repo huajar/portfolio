@@ -24,8 +24,9 @@ export function LanguageSwitcher({className}: {className?: string}) {
       className={`h-10 w-auto px-3 ${className}`}
       variant='ghost'
       onClick={toggleLanguage}
+      aria-label={`Switch language to ${locale === "en" ? "Spanish" : "English"}`}
     >
-      <Globe className="h-4 w-4 stroke-text mr-1" />
+      <Globe className="h-4 w-4 stroke-text mr-1" aria-hidden="true" />
       <span className="text-xs font-bold">
         {locale.toUpperCase()}
       </span>

@@ -69,7 +69,7 @@ export default function FeaturedProjects() {
   ];
 
   return (
-    <div className="py-16 md:py-24 px-4 sm:px-6 lg:px-8" id="projects">
+    <section className="scroll-mt-24 py-16 md:py-24 px-4 sm:px-6 lg:px-8" id="projects">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <div className="w-10 h-0.5 bg-accent mb-4" />
@@ -122,10 +122,11 @@ export default function FeaturedProjects() {
                         href={link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-secondary hover:text-secondary/70 transition-colors"
+                        aria-label={`Visit ${project.title}`}
+                        className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-secondary hover:text-secondary/70 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2"
                       >
                         Visit site
-                        <ExternalLink className="h-3.5 w-3.5" />
+                        <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
                       </Link>
                     );
                   }
@@ -136,6 +137,6 @@ export default function FeaturedProjects() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

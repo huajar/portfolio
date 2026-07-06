@@ -80,7 +80,7 @@ export default function Journey() {
   ].sort();
 
   return (
-    <section className="py-16 md:py-24" id="experience">
+    <section className="scroll-mt-24 py-16 md:py-24" id="experience">
       <div className="container px-4 md:px-6">
         <div className="mb-12">
           <div className="w-10 h-0.5 bg-accent mb-4" />

@@ -43,6 +43,10 @@ export default function IntlProvider({ children }: Props) {
     }
   }, [])
 
+  useEffect(() => {
+    document.documentElement.lang = locale
+  }, [locale])
+
 
   if (!messages) {
     const defaultMessages = {
@@ -63,7 +67,7 @@ export default function IntlProvider({ children }: Props) {
         description: "A Systems Engineering student passionate about building end-to-end web solutions. I love experimenting with new technologies and constantly growing as a developer."
       },
       common: {
-        loading: "Loading...",
+        loading: "Loading…",
         error: "An error occurred", 
         retry: "Try again",
         contact: "Contact",

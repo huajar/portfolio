@@ -7,8 +7,8 @@ export default function Portfolio() {
   return (
     <MaxWidthWrapper className="mb-14 space-y-16 md:space-y-24">
       <Hero />
-      <Projects />
       <Journey />
+      <Projects />
     </MaxWidthWrapper>
   );
 }

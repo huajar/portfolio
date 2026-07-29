@@ -20,26 +20,31 @@
     "title": "Proyectos",
     "description": "Productos reales para usuarios reales — construido con Next.js, Django y WordPress.",
     "0": {
+      "title": "Colpor Maps",
+      "description": "Plataforma de gestión para colportores que permite controlar clientes, pedidos, cuotas, entregas y territorios mediante un mapa interactivo. Construida con Next.js y Supabase, optimiza la gestión de ventas con informes automáticos.",
+      "completedDate": "2025"
+    },
+    "1": {
       "title": "Alkitab (versión antigua)",
       "description": "La plataforma fue diseñada para conectar personas en Kirguistán con recursos cristianos. Mis responsabilidades incluyeron implementar nuevas funcionalidades y asegurar la accesibilidad y el correcto funcionamiento de la aplicación.",
       "completedDate": "Julio 2024"
     },
-    "1": {
+    "2": {
       "title": "Ediciones Lucentia",
       "description": "Desarrollé una web estática para una editorial, con el objetivo de exhibir de manera efectiva sus servicios. Este sitio se construyó para brindar una experiencia de usuario atractiva e informativa, posicionándose como la presencia digital clave para la comercialización y el contacto.",
       "completedDate": "Octubre 2024"
     },
-    "2": {
+    "3": {
       "title": "Adventist On The Map",
       "description": "Desarrollé un directorio público web. Diseñado para que un cliente administre y muestre de manera eficaz una red seleccionada de profesionales adventistas que ofrecen diversos servicios.",
       "completedDate": "Agosto 2024"
     },
-    "3": {
+    "4": {
       "title": "Profeteia",
       "description": "Desarrollé y personalicé un sitio web de e-commerce y blog personal para un cliente que vende productos virtuales. Mi trabajo se centró en configurar el sitio para una buena experiencia de usuario y de creacion de contenido, asegurando que el cliente pudiera gestionar eficazmente sus productos y publicaciones.",
       "completedDate": "Enero 2024"
     },
-    "4": {
+    "5": {
       "title": "The Friends Language Club",
       "description": "Mi primer proyecto de aplicación web, diseñado como una plataforma para conectar estudiantes de idiomas con hablantes nativos para práctica e intercambio cultural. Este proyecto me brindó experiencia práctica integral en principios de desarrollo web, desde la conceptualización y diseño hasta la implementación y resolución de problemas.",
       "completedDate": "Diciembre 2023"

@@ -13,29 +13,29 @@ export default function FeaturedProjects() {
     {
       title: t("0.title"),
       description: t("0.description"),
-      image: "/AlKitab.webp",
-      technologies: ["Django", "PostgreSQL", "HTML5", "CSS"],
-      deployLink: "",
-      demoLink: "https://alkitab.media/",
+      image: "/colpormaps.webp",
+      technologies: ["Next.js", "Supabase", "Tailwind CSS", "TypeScript"],
+      deployLink: "https://colpormaps.uap.edu.ar/",
+      demoLink: "",
       repoLink: "",
       completedDate: t("0.completedDate"),
     },
     {
       title: t("1.title"),
       description: t("1.description"),
-      image: "/ediciones-lucentia.webp",
-      technologies: ["WordPress"],
-      deployLink: "https://edicioneslucentia.com/",
-      demoLink: "",
+      image: "/AlKitab.webp",
+      technologies: ["Django", "PostgreSQL", "HTML5", "CSS"],
+      deployLink: "",
+      demoLink: "https://alkitab.media/",
       repoLink: "",
       completedDate: t("1.completedDate"),
     },
     {
       title: t("2.title"),
       description: t("2.description"),
-      image: "/AOTM.webp",
-      technologies: ["Next.js", "Supabase", "Tailwind CSS", "TypeScript"],
-      deployLink: "https://adventistonthemap.com/",
+      image: "/ediciones-lucentia.webp",
+      technologies: ["WordPress"],
+      deployLink: "https://edicioneslucentia.com/",
       demoLink: "",
       repoLink: "",
       completedDate: t("2.completedDate"),
@@ -43,9 +43,9 @@ export default function FeaturedProjects() {
     {
       title: t("3.title"),
       description: t("3.description"),
-      image: "/Profeteia.webp",
-      technologies: ["WordPress", "WooCommerce"],
-      deployLink: "https://profeteia.com/",
+      image: "/AOTM.webp",
+      technologies: ["Next.js", "Supabase", "Tailwind CSS", "TypeScript"],
+      deployLink: "https://adventistonthemap.com/",
       demoLink: "",
       repoLink: "",
       completedDate: t("3.completedDate"),
@@ -53,6 +53,16 @@ export default function FeaturedProjects() {
     {
       title: t("4.title"),
       description: t("4.description"),
+      image: "/Profeteia.webp",
+      technologies: ["WordPress", "WooCommerce"],
+      deployLink: "https://profeteia.com/",
+      demoLink: "",
+      repoLink: "",
+      completedDate: t("4.completedDate"),
+    },
+    {
+      title: t("5.title"),
+      description: t("5.description"),
       image: "/friendslanguage.webp",
       technologies: [
         "Next.js",
@@ -64,7 +74,7 @@ export default function FeaturedProjects() {
       deployLink: "",
       demoLink: "https://friendslanguage.club/",
       repoLink: "",
-      completedDate: t("4.completedDate"),
+      completedDate: t("5.completedDate"),
     },
   ];
 
@@ -102,7 +112,7 @@ export default function FeaturedProjects() {
                 <h3 className="font-display font-extrabold text-lg sm:text-xl leading-tight text-text">
                   {project.title}
                 </h3>
-                <p className="font-body text-sm text-textSecondary leading-relaxed line-clamp-2">
+                <p className="font-body text-sm text-textSecondary leading-relaxed">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-1.5 mt-auto">

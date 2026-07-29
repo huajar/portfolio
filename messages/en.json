@@ -14,33 +14,38 @@
     "description": "I build web apps with whatever solves the problem. I'm a Systems Engineering student and lately I've been getting more into infrastructure, networks, and cybersecurity.",
     "location": "CABA, Argentina",
     "status": "Open to work",
-    "projects_count": "5 shipped",
+    "projects_count": "6 shipped",
     "years_active": "3 years of experience"
   },
   "projects": {
     "title": "Projects",
     "description": "Real products for real users — built with Next.js, Django and WordPress.",
     "0": {
+      "title": "Colpor Maps",
+      "description": "Management platform for colporteurs to control clients, orders, installments, deliveries, and territories via an interactive map. Built with Next.js and Supabase, it streamlines book and material sales with automated reporting.",
+      "completedDate": "2025"
+    },
+    "1": {
       "title": "Alkitab (old version)",
       "description": "The platform was designed to connect individuals in Kyrgyzstan with Christian resources. My responsibilities included implementing new features and ensuring the application's functionality and accessibility.",
       "completedDate": "July 2024"
     },
-    "1": {
+    "2": {
       "title": "Ediciones Lucentia",
       "description": "Developed a static website for a publishing house, with the aim of effectively showcasing their services. This site was built to provide an engaging and informative user experience, positioning itself as the key digital presence for commercialization and contact.",
       "completedDate": "October 2024"
     },
-    "2": {
+    "3": {
       "title": "Adventist On The Map",
       "description": "Developed a public web directory designed for a client to effectively manage and showcase a curated network of Adventist professionals offering various services.",
       "completedDate": "August 2024"
     },
-    "3": {
+    "4": {
       "title": "Profeteia",
       "description": "Developed and customized an e-commerce and personal blog website for a client selling virtual products. My work focused on setting up the site for a good user experience and content creation, ensuring the client could effectively manage their products and posts.",
       "completedDate": "January 2024"
     },
-    "4": {
+    "5": {
       "title": "The Friends Language Club",
       "description": "My initial web application project, designed as a platform to connect language learners with native speakers for practice and cultural exchange. This endeavor provided comprehensive hands-on experience in core web development principles, from conceptualization and design to implementation and problem-solving.",
       "completedDate": "December 2023"

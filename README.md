@@ -38,4 +38,3 @@ Thinking of checking out this project directly on your computer? It's pretty str
 * [Neobrutalism components](https://www.neobrutalism.dev/)
 * [Lycee Comte de Foix](https://github.com/NoeSourdes/lycee-comte-de-foix)
 
-holaaa lucii
